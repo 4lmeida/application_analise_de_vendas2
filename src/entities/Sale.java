@@ -67,6 +67,7 @@ public class Sale {
 	public String toString() {
 		return seller + " - R$ " + String.format("%.2f", total); 
 	}
+	
 
 	@Override
 	public int hashCode() {
@@ -92,6 +93,10 @@ public class Sale {
 			return false;
 		return true;
 	}
+
+
+
+
 	
 	
 	
